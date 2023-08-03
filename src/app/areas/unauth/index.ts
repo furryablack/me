@@ -18,7 +18,7 @@ export const Area = {
     },  
     
     {
-      path: 'me',
+      path: 'resume',
       children: [User],
     },
   ],

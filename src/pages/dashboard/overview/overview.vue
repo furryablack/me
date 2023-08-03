@@ -3,7 +3,7 @@
     <pre class="text-16">
 My name is Aleksei.
 I'm a front-end developer.
-<router-link to="/me">
+<router-link to="/resume">
   Look for details
 </router-link>
 [Relative experience]
