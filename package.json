@@ -6,7 +6,7 @@
   "scripts": {
     "vite:dev": "vite --host --config vite.config/index.ts",
     "vite:build": "vite build --config vite.config/index.ts",
-    "vite:build:gh": "rimraf gh-pages && cross-env VITE_APP_BASE_URL=/me/ yarn vite:build --outDir ./gh-pages",
+    "vite:build:gh": "rimraf gh-pages && cross-env VITE_APP_BASE_URL=/me/ GH_PAGES=true yarn vite:build --outDir ./gh-pages",
     "vite:preview": "vite preview --host --config vite.config/index.ts --port 4210",
     "qa:lint:code": "eslint src --resolve-plugins-relative-to \"./src/**/*.{ts,vue}\"",
     "qa:typecheck": "vue-tsc --noEmit",

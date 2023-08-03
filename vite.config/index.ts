@@ -36,7 +36,10 @@ export default defineConfig((init: { mode: string; }) => {
       assetsDir: 'app',
       
       rollupOptions: {
-        output: {
+        output: process.env.GH_PAGES === 'true' ? {
+          sanitizeFileName: (path) => path.replace(/\x00/, ''),
+          manualChunks: () => 'gh-pages-bundle',
+        } : {
           assetFileNames: 'assets/[name].[hash].[ext]',
           
           manualChunks(chunkPath: string) {
