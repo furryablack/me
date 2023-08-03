@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@shared": ["./src/shared"],
+      "@shared/*": ["./src/shared/*"],
+      "@entities": ["./src/entities"],
+      "@entities/*": ["./src/entities/*"],
+      "@features": ["./src/features"],
+      "@features/*": ["./src/features/*"],
+      "@widgets": ["./src/widgets"],
+      "@widgets/*": ["./src/widgets/*"],     
+      "@pages": ["./src/pages"],
+      "@pages/*": ["./src/pages/*"],
+      "@processes": ["./src/processes"],
+      "@processes/*": ["./src/processes/*"],
+      "@app": ["./src/app"],
+      "@app/*": ["./src/app/*"]
+    }
+  }
+}

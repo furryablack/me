@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,    
+    "types": [
+      "node",
+      "vite/client",
+      "vitest/globals"
+    ],
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "paths": {
+      "@shared": ["./src/shared"],
+      "@shared/*": ["./src/shared/*"],
+      "@entities": ["./src/entities"],
+      "@entities/*": ["./src/entities/*"],
+      "@features": ["./src/features"],
+      "@features/*": ["./src/features/*"],
+      "@widgets": ["./src/widgets"],
+      "@widgets/*": ["./src/widgets/*"],
+      "@pages": ["./src/pages"],
+      "@pages/*": ["./src/pages/*"],
+      "@processes": ["./src/processes"],
+      "@processes/*": ["./src/processes/*"],
+      "@app": ["./src/app"],
+      "@app/*": ["./src/app/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/typings.d.ts",
+    "src/**/*.vue",
+    "vite.config/typings.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

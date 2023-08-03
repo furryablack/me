@@ -1,0 +1,13 @@
+# folders
+node_modules
+dist
+html
+__snapshots__
+
+# files
+*.log
+*.env.local
+*.env.*.local
+
+#ide
+.vscode/
