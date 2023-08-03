@@ -2,18 +2,10 @@
   <div class="contact-to-me p-2">
     <ul>
       <li class="contact-to-me__contact">
-        <span class="contact-to-me__contact-identity">skype</span>
+        <span class="contact-to-me__contact-identity">linkedin</span>
 
         <span>
-          <Shared.UI.NativeLink href="skype:big2bear4?chat">big2bear4</Shared.UI.NativeLink>
-        </span>
-      </li>
-
-      <li class="contact-to-me__contact">
-        <span class="contact-to-me__contact-identity">telegram</span>
-
-        <span>
-          <Shared.UI.NativeLink href="https://t.me/furryablack">t.me/furryablack</Shared.UI.NativeLink>
+          <Widgets.UserLinks.Linkedin />
         </span>
       </li>
 
@@ -26,10 +18,10 @@
       </li>
 
       <li class="contact-to-me__contact">
-        <span class="contact-to-me__contact-identity">whatsapp</span>
+        <span class="contact-to-me__contact-identity">skype</span>
 
         <span>
-          <Shared.UI.NativeLink href="https://wa.me/37494789476">+374 094 789476</Shared.UI.NativeLink>
+          <Shared.UI.NativeLink href="skype:big2bear4?chat">big2bear4</Shared.UI.NativeLink>
         </span>
       </li>
 
@@ -42,10 +34,18 @@
       </li>
 
       <li class="contact-to-me__contact">
-        <span class="contact-to-me__contact-identity">linkedin</span>
+        <span class="contact-to-me__contact-identity">whatsapp</span>
 
         <span>
-          <Widgets.UserLinks.Linkedin />
+          <Shared.UI.NativeLink href="https://wa.me/37494789476">+374 094 789476</Shared.UI.NativeLink>
+        </span>
+      </li>
+
+      <li class="contact-to-me__contact">
+        <span class="contact-to-me__contact-identity">telegram</span>
+
+        <span>
+          <Shared.UI.NativeLink href="https://t.me/furryablack">t.me/furryablack</Shared.UI.NativeLink>
         </span>
       </li>
     </ul>
@@ -64,10 +64,6 @@ import { Widgets } from '@widgets';
 
   &__contact {
     @apply block xs:flex xs:flex-row xs:justify-start;
-    
-    &:not(:last-child) {
-      @apply pb-1 xs:pb-0;
-    }
   }
 
   &__contact-identity {
