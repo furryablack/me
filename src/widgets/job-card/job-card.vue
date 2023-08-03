@@ -16,9 +16,12 @@
     </div>
 
     <template v-if="descriptionIsArray">
-      <template v-for="description of descriptions">
+      <template 
+        v-for="descriptionItem of description" 
+        :key="descriptionItem"
+      >
         <div class="first-letter:font-semibold first-letter:underline pb-2 leading-5">
-          {{ description }}
+          {{ descriptionItem }}
         </div>
       </template>
     </template>
@@ -57,5 +60,4 @@ const props = withDefaults(defineProps<IProps>(), {
 });
 
 const descriptionIsArray = computed(() => Array.isArray(props.description));
-const descriptions = computed(() => props.description);
 </script>
