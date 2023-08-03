@@ -38,7 +38,7 @@
 import { computed } from 'vue';
 import { Shared } from '@shared';
 
-// todo: duplicate from shared/ui/card/card.vue
+// TODO: duplicate from shared/ui/card/card.vue
 // need to review this case
 interface ICardProps {
   className?: string,

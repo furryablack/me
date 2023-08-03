@@ -1,4 +1,4 @@
-import { Dashboard, User } from '@app/areas/internal';
+import { Dashboard, User, SOS } from '@app/areas/internal';
 import { AreaFrame } from './area-frame';
 
 export const Area = {
@@ -20,6 +20,11 @@ export const Area = {
     {
       path: 'resume',
       children: [User],
+    },
+
+    {
+      path: 'i-need-help',
+      children: [SOS],
     },
   ],
 };
