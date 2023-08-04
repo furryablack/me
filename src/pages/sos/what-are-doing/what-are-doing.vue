@@ -63,7 +63,7 @@
 
         <p class="first-letter:font-bold first-letter:underline pb-2">
           <Shared.UI.NativeLink href="https://furryablack.github.io/me">
-            Мое CV/резюме</Shared.UI.NativeLink>.
+            Мое CV/резюме</Shared.UI.NativeLink>. Во фронтенде 7+ лет.
           Работал со сложными формами на Angular в
           <Shared.UI.NativeLink href="https://webbankir.ru">
             webbankir.ru</Shared.UI.NativeLink>, с видео в
@@ -74,11 +74,17 @@
             reach.live
           </Shared.UI.NativeLink> (который решил "прилечь", но
           проект реальный).
-          Там же зацепил супер дупер секретный крипто стартап.
+          Там же зацепил <Shared.UI.NativeLink 
+            href="https://www.linkedin.com/posts/activity-7090390934214877184--UHj?utm_source=share&utm_medium=member_desktop"
+          >
+            супер дупер секретный крипто стартап
+          </Shared.UI.NativeLink>. Есть даже старая итерация проекта в приват репо, но могу показать только кусок кода и только
+          с фронтенд части, orb-api прям секретный. 
+          А ottofeller мне нравятся, классные ребята. 
         </p>
 
         <p class="first-letter:font-bold first-letter:underline pb-2">
-          Могу показать куски кода с прошлых проектов. Только куски (NDA). Весь код в приват репах на гитлабе, не на
+          Могу показать другие куски кода с прошлых проектов. Только куски (NDA). Весь код в приват репах на гитлабе, не на
           гитхабе.
         </p>
 
