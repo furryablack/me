@@ -20,11 +20,9 @@ import { Shared } from '@shared';
 
 export interface IProps {
   className?: string,
-  title: string,
 }
 
 withDefaults(defineProps<IProps>(), {
   className: undefined,
-  title: undefined,
 });
 </script>
