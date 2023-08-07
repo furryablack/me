@@ -29,7 +29,7 @@
       <li>• Hasura/Postgres, next.js</li>
       <li>• React, Vue 2|3, Angular 2+</li>
       <li>• CSS, HTML, LESS/SASS/SCSS/</li>
-      <li>• Bootstrap, Tailwind, Bulma, BEM, linaria, StyleSheet, etc</li>
+      <li>• Bootstrap, Tailwind, Bulma, BEM, linaria, styled-components, etc</li>
       <li>• Material UI, etc</li>
       <li>• git, git-flow, docker, docker-compose</li>
       <li>• GraphQL, REST, Apollo</li>
