@@ -6,6 +6,9 @@
         <li>- Привет. Я Алексей.</li>
         <li>- Что происходит? Зачем я тут?</li>
         <li>- Постараюсь все обьяснить.</li>
+        <li>
+          <router-link to="i-need-help/statement">- statement</router-link>
+        </li>
       </ul>
     </div>
 

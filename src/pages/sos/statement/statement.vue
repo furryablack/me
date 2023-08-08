@@ -6,6 +6,9 @@
         <li>• Помощь поступает</li>
         <li>• Тут я ее фиксирую</li>
         <li>• Фиксирую без имен/никнеймов</li>
+        <li>
+          <router-link to="../i-need-help">• manifest</router-link>
+        </li>
       </ul>
     </div>
 
@@ -15,7 +18,7 @@
       <ul class="list-disc list-inside pb-6">
         <li>
           Я планирую оставить свой манифест.
-          <router-link to="/i-need-help">Прочтите его</router-link>
+          <router-link to="../i-need-help">Прочтите его</router-link>
         </li>
 
         <li>Каждый из heroes сам в своем приключении, но все равно стремится помочь чем может</li>
