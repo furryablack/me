@@ -3,9 +3,9 @@
   <div class="flex flex-col mx-auto max-w-screen-sm overflow-y-hidden">
     <div class="border-dashed border-b-2 border-191919 border-opacity-50 py-2 font-bold">
       <ul class="whitespace-nowrap">
-        <li>• Помощь поступает</li>
-        <li>• Тут я ее фиксирую</li>
-        <li>• Фиксирую без имен/никнеймов</li>
+        <li>• Помощь поступила</li>
+        <li>• Тут я ее зафиксировал</li>
+        <li>• Без имен/никнеймов</li>
         <li>
           <router-link to="../i-need-help">• manifest</router-link>
         </li>
@@ -13,7 +13,10 @@
     </div>
 
     <div class="flex flex-col overflow-y-auto py-4">
-      <Shared.UI.TitleBlock class="pb-3" title="Cпасибо" />
+      <Shared.UI.TitleBlock
+        class="pb-3"
+        title="Cпасибо"
+      />
 
       <ul class="list-disc list-inside pb-6">
         <li>
@@ -27,7 +30,10 @@
         <li>Теперь я обязан выгрести. Чтобы быть в состоянии так же помогать</li>
       </ul>
 
-      <Shared.UI.TitleBlock class="pb-3" title="08.08.23" />
+      <Shared.UI.TitleBlock
+        class="pb-3"
+        title="08.08.23"
+      />
 
       <ul class="list-disc list-inside pb-6">
         <li class="font-bold">2 heroes</li>
@@ -66,7 +72,34 @@
         <li>Еще один hero поделился своим опытом в новом для меня айтишном стеке</li>
       </ul>
 
-      <Shared.UI.TitleBlock class="pb-3" title="xx.08.23" />
+      <Shared.UI.TitleBlock
+        class="pb-3"
+        title="31.08.23"
+      />
+
+      <ul class="list-disc list-inside pb-6">
+        <li class="font-bold">1 hero</li>
+        <li>Дракон побежден</li>
+        <li>Спасибо тебе за помощь, основную ее часть оказал мне ты. Не смотря на свои проблемы</li>
+      </ul>
+
+      <ul class="list-disc list-inside pb-6">
+        <li class="font-bold">heroes</li>
+        <li>Я помню всех и каждого кто мне помог. Не забуду вам этого.</li>
+        <li>Финансовую помощь верну до конца года. Я знаю цену каждому драму, каждому рублю.</li>
+        <li>О да, теперь я знаю им цену очень хорошо.</li>
+      </ul>
+
+      <ul class="list-disc list-inside pb-6">
+        <li class="font-bold">результаты</li>
+        <li>У меня есть работа. На сентябрь точно (проектная занятость).</li>
+        <li>У меня есть деньги на пролонгацию аренды (первый + последний месяц).</li>
+        <li>Текущий долг по аренде закрыт.</li>
+        <li>Есть деньги на прочие расходы (связь, комуналка и тд).</li>
+        <li>Короче, проблемы были, их больше нет. НЕТ их больше. С вашей помощью.</li>
+        <li>Огромное спасибо. Я обязательно закреплюсь на своих двоих и продолжу ваше дело: ведь есть еще и будут (к моей грусти) люди в нужде.</li>
+        <li class="italic">А помогать им никто кроме нас не будет.</li>
+      </ul>
     </div>
 
     <div class="border-dashed border-t-2 border-191919 border-opacity-50">

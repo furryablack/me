@@ -7,13 +7,32 @@
         <li>- Что происходит? Зачем я тут?</li>
         <li>- Постараюсь все обьяснить.</li>
         <li>
-          <router-link to="i-need-help/statement">- statement</router-link>
+          <router-link
+            to="i-need-help/statement"
+            class="text-green-600"
+          >
+            - statement: done!
+          </router-link>
         </li>
       </ul>
     </div>
 
-    <div class="flex flex-col overflow-y-auto py-4">
-      <Shared.UI.TitleBlock class="pb-3" title="Короче, need help" />
+    <div class="flex flex-col overflow-y-auto py-4 opacity-90">
+      <Shared.UI.TitleBlock
+        class="pb-3"
+        title="04.08.23 - 31.08.23"
+      />
+
+      <ul class="list-disc list-inside pb-6">
+        <li>4 августа. Оглядываюсь и не верю что это было со мной</li>
+        <li>31 августа. Прошло меньше месяца. Я стою на ногах. Благодаря неравнодушным людям.</li>
+        <li>Ниже я оставил оригинальный текст от 4 августа с моей просьбой о помощи. Для себя будущего в первую очередь.</li>
+      </ul>
+
+      <Shared.UI.TitleBlock
+        class="pb-3"
+        title="Короче, need help"
+      />
 
       <ul class="list-disc list-inside pb-6">
         <li>И теперь по традиции ты закрываешь страницу и идешь по своим делам.</li>
@@ -21,7 +40,10 @@
         <li>Прости, мне трудно просить помощь. Никогда этого не делал.</li>
       </ul>
 
-      <Shared.UI.TitleBlock class="pb-3" title="В чем дело?" />
+      <Shared.UI.TitleBlock
+        class="pb-3"
+        title="В чем дело?"
+      />
 
       <div class="pb-6">
         Я безработный front-end дэв который не может найти работу. Да. Я есть.
@@ -45,7 +67,10 @@
         компанию.
       </div>
 
-      <Shared.UI.TitleBlock class="pb-3" title="О какой помощи речь?" />
+      <Shared.UI.TitleBlock
+        class="pb-3"
+        title="О какой помощи речь?"
+      />
 
       <div class="pb-6">
         <p class="first-letter:font-bold first-letter:underline pb-2">
@@ -59,17 +84,21 @@
         <p class="first-letter:font-bold first-letter:underline pb-2">
           Нужна помощь с деньгами и работой. Вот
           <Shared.UI.NativeLink
-            href="https://docs.google.com/spreadsheets/d/1Ctfz6GXLS4k8cnpluUfKVjbLKJOlo4RqNi3lCsPRFlU/edit?usp=sharing">
-            табличка моих аплаев на гугл доках</Shared.UI.NativeLink>. Я и до июля был в поиске, но в июле включил
+            href="https://docs.google.com/spreadsheets/d/1Ctfz6GXLS4k8cnpluUfKVjbLKJOlo4RqNi3lCsPRFlU/edit?usp=sharing"
+          >
+            табличка моих аплаев на гугл доках
+          </Shared.UI.NativeLink>. Я и до июля был в поиске, но в июле включил
           "aggressive mode" образно говоря.
         </p>
 
         <p class="first-letter:font-bold first-letter:underline pb-2">
           <Shared.UI.NativeLink href="https://furryablack.github.io/me">
-            Мое CV/резюме</Shared.UI.NativeLink>. Во фронтенде 7+ лет.
+            Мое CV/резюме
+          </Shared.UI.NativeLink>. Во фронтенде 7+ лет.
           Работал со сложными формами на Angular в
           <Shared.UI.NativeLink href="https://webbankir.ru">
-            webbankir.ru</Shared.UI.NativeLink>, с видео в
+            webbankir.ru
+          </Shared.UI.NativeLink>, с видео в
           <Shared.UI.NativeLink href="https://ottofeller.com/projects">
             Ottofeller
           </Shared.UI.NativeLink> на проекте
@@ -80,7 +109,8 @@
           Там же зацепил <Shared.UI.NativeLink 
             href="https://www.linkedin.com/posts/activity-7090390934214877184--UHj?utm_source=share&utm_medium=member_desktop"
           >
-            супер дупер секретный крипто стартап</Shared.UI.NativeLink>. Есть даже старая итерация проекта в приват репо, но могу показать только кусок кода и только
+            супер дупер секретный крипто стартап
+          </Shared.UI.NativeLink>. Есть даже старая итерация проекта в приват репо, но могу показать только кусок кода и только
           с фронтенд части, orb-api прям секретный. 
           А ottofeller мне нравятся, классные ребята. 
         </p>
@@ -109,14 +139,20 @@
           </Shared.UI.NativeLink> уже просрочился.
           Так что на юр. лицо в РФ работать официально я не смогу.
           Готов работать по ГПХ/найму на армянскую компанию. Планирую сделать ИП, благо <Shared.UI.NativeLink
-            href="https://am-banking-and-immigration.notion.site/am-banking-and-immigration/Deel-0f4b9b11cce84e6681d0333568587377">
-            есть актуальный FAQ</Shared.UI.NativeLink>, но оно хоть и стоит не дорого, но я сейчас просто на мели.
+            href="https://am-banking-and-immigration.notion.site/am-banking-and-immigration/Deel-0f4b9b11cce84e6681d0333568587377"
+          >
+            есть актуальный FAQ
+          </Shared.UI.NativeLink>, но оно хоть и стоит не дорого, но я сейчас просто на мели.
           А так, планы открыть ИП и в идеале работать через <Shared.UI.NativeLink href="https://www.deel.com/">
-            deel.com</Shared.UI.NativeLink> или аналоги.
+            deel.com
+          </Shared.UI.NativeLink> или аналоги.
         </p>
       </div>
 
-      <Shared.UI.TitleBlock class="pb-3" title="И это Все?" />
+      <Shared.UI.TitleBlock
+        class="pb-3"
+        title="И это Все?"
+      />
 
       <div class="pb-6">
         <p class="first-letter:font-bold first-letter:underline pb-2">
@@ -129,7 +165,8 @@
         <p class="first-letter:font-bold first-letter:underline pb-2">
           Дома у меня давно нет, продал перед отъездом из РФ. Прописки тоже нет.
           Родные фанаты Путина, в то время как я донатил одному украинцу через <Shared.UI.NativeLink
-            href="https://diaka.ua">
+            href="https://diaka.ua"
+          >
             diaka.ua
           </Shared.UI.NativeLink>
           (<Shared.UI.NativeLink href="https://youtube.com/@CenturionStream">
@@ -162,7 +199,10 @@
         </p>
       </div>
 
-      <Shared.UI.TitleBlock class="pb-3" title="Теперь без 'воды', что надо?" />
+      <Shared.UI.TitleBlock
+        class="pb-3"
+        title="Теперь без 'воды', что надо?"
+      />
 
       <div class="pb-6">
         <p class="first-letter:font-bold first-letter:underline pb-2">
