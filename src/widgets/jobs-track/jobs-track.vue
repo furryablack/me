@@ -22,7 +22,6 @@
 
     <Widgets.JobCard
       class="pb-5"
-      shadow
       position="Middle/Senior front-end developer"
       company="KonigLabs (web development)"
       date="2022 March - 2023 Aug."
