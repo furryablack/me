@@ -11,9 +11,21 @@
     <Widgets.JobCard
       class="pb-5"
       shadow
+      position="Senior front-end developer"
+      company="Another cool start-up"
+      date="2023 Aug. - Preset"
+      
+      :description="[
+        `Developed a UI kit (next.js + MUI)`,
+      ]"
+    />
+
+    <Widgets.JobCard
+      class="pb-5"
+      shadow
       position="Middle/Senior front-end developer"
       company="KonigLabs (web development)"
-      date="2022 March - Present"
+      date="2022 March - 2023 Aug."
       
       :description="[
         `Developed a module for issuing microloans from scratch within an internet banking
@@ -21,7 +33,7 @@
         `Implemented the Future Slice (FSD) approach to refactoring legacy code in the project,
         avoiding the need to rewrite the application from scratch`,
       ]"
-    />
+    />    
 
     <Widgets.JobCard
       class="pb-5"
