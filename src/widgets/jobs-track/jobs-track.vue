@@ -13,7 +13,7 @@
       shadow
       position="Senior front-end developer"
       company="Another cool start-up"
-      date="2023 Aug. - Preset"
+      date="2023 Aug. - Present"
       
       :description="[
         `Developed a UI kit (next.js + MUI)`,
